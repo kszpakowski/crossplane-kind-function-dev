@@ -1,0 +1,1 @@
+FROM ghcr.io/crossplane-contrib/function-kcl:v0.11.2

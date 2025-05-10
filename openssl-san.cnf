@@ -1,0 +1,20 @@
+[ req ]
+default_bits       = 2048
+prompt             = no
+default_md         = sha256
+req_extensions     = req_ext
+distinguished_name = dn
+
+[ dn ]
+CN = oci-registry.default.svc.cluster.local
+
+[ req_ext ]
+subjectAltName = @alt_names
+
+[ alt_names ]
+DNS.1 = oci-registry
+DNS.2 = oci-registry.default
+DNS.3 = oci-registry.default.svc
+DNS.4 = oci-registry.default.svc.cluster.local
+
+DNS.5 = localhost

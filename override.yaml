@@ -1,0 +1,3 @@
+registryCaBundleConfig:
+  name: distribution-ca
+  key: tls.crt

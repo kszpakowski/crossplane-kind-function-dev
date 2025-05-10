@@ -1,0 +1,7 @@
+apiVersion: pkg.crossplane.io/v1beta1
+kind: Function
+metadata:
+  name: function-kcl
+spec:
+  package: oci-registry.default.svc.cluster.local/crossplane-contrib/function-kcl:v0.11.4
+  # package: 172.21.0.3:30000/crossplane-contrib/function-kcl:v0.11.4
